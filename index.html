@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,165 @@
   <link rel="stylesheet" href="./css/gf.min.css">
   <link rel="stylesheet" href="./css/gf-theme.css">
 </head>
+
 <body>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="./js/gf.min.js" charset="utf-8"></script>
+  <div class="container">
+    <header>
+      <h2>Elements</h2>
+      <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+    </header>
+    <!-- Text -->
+    <h3>Text</h3>
+    <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
+      Finally, <a href="#">this is a link</a>.</p>
+    <hr />
+    <h1>Heading Level 2</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+    <hr />
+    <h4>Blockquote</h4>
+    <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum
+      primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+    <h4>Preformatted</h4>
+    <pre>
+      <code>
+        var obj = {a: 1, b: 2, c: 3};
+
+for (const prop in obj) {
+  console.log(`obj.${prop} = ${obj[prop]}`);
+}
+
+// Output:
+// "obj.a = 1"
+// "obj.b = 2"
+// "obj.c = 3"
+</code>
+</pre>
+    <h3>Lists</h3>
+    <div class="ms-12 md-6 lg-6">
+      <h4>Unordered</h4>
+      <ul class="unordered">
+        <li>Dolor pulvinar etiam magna etiam.</li>
+        <li>Sagittis adipiscing lorem eleifend.</li>
+        <li>Felis enim feugiat dolore viverra.</li>
+      </ul>
+    </div>
+    <div class="ms-12 md-6 lg-6">
+      <h4>Ordered</h4>
+      <ol class="ordered">
+        <li>Dolor pulvinar etiam magna etiam.</li>
+        <li>Etiam vel felis at lorem sed viverra.</li>
+        <li>Felis enim feugiat dolore viverra.</li>
+        <li>Dolor pulvinar etiam magna etiam.</li>
+        <li>Etiam vel felis at lorem sed viverra.</li>
+      </ol>
+    </div>
+    <h4>Actions</h4>
+    <div class="sm-12 md-12 lg-12">
+      <a href="#" class="button alt">Default</a>
+      <a href="#" class="button">Default</a>
+    </div>
+    <div class="sm-12 md-12 lg-12">
+      <a href="#" class="button alt small">Small</a>
+      <a href="#" class="button small">Small</a>
+    </div>
+    <div class="sm-12 md-12 lg-12">
+      <a href="#" class="button alt">Default</a></li>
+      <a href="#" class="button">Default</a>
+    </div>
+    <div class="sm-12 md-12 lg-12">
+      <a href="#" class="button alt small">Small</a>
+      <a href="#" class="button small">Small</a>
+    </div>
+    <div class="sm-12 md-12 lg-12">
+      <a href="#" class="button alt fit">Default</a>
+      <a href="#" class="button fit">Default</a>
+    </div>
+    <div class="sm-12 md-12 lg-12">
+      <a href="#" class="button alt small fit">Small</a>
+      <a href="#" class="button small fit">Small</a>
+    </div>
+    <h3>Buttons</h3>
+    <div class="sm-12 md-12-lg-12">
+      <a href="#" class="button alt">Special</a>
+      <a href="#" class="button">Default</a>
+    </div>
+    <div class="sm-12 md-12-lg-12">
+      <a href="#" class="button alt big">Big</a>
+      <a href="#" class="button">Default</a>
+      <a href="#" class="button small">Default</a>
+    </div>
+    <div class="sm-12 md-12-lg-12">
+      <a href="#" class="button alt fit">Fit</a>
+      <a href="#" class="button fit">Fit</a>
+    </div>
+    <div class="sm-12 md-12-lg-12">
+      <a href="#" class="button alt fit small">Fit + Small</a>
+      <a href="#" class="button fit small">Fit + Small+ueba</a>
+    </div>
+    <div class="sm-12 md-12-lg-12">
+      <a href="#" class="button alt icon fa-download">Icon</a>
+      <a href="#" class="button icon fa-download">Icon</a>
+    </div>
+    <div class="sm-12 md-12-lg-12">
+      <span class="button alt disabled">Special</span></li>
+      <span class="button disabled">Default</span></li>
+    </div>
+    <h3>Form</h3>
+    <form method="post" action="#">
+      <div class="sm-12 md-6 lg-6">
+        <input type="text" name="name" id="name" value="" placeholder="Name" />
+      </div>
+      <div class="sm-12 md-6 lg-6">
+        <input type="email" name="email" id="email" value="" placeholder="Email" />
+      </div>
+      <div class="sm-12 md-12 lg-12">
+        <select name="category" id="category">
+          <option value="">- Category -</option>
+          <option value="1">Manufacturing</option>
+          <option value="1">Shipping</option>
+          <option value="1">Administration</option>
+          <option value="1">Human Resources</option>
+        </select>
+      </div>
+      <div class="sm-4 md-4 lg-4">
+        <input type="radio" id="priority-low" name="priority" checked>
+        <label for="priority-low">Low Priority</label>
+      </div>
+      <div class="sm-4 md-4 lg-4">
+        <input type="radio" id="priority-normal" name="priority">
+        <label for="priority-normal">Normal Priority</label>
+      </div>
+      <div class="sm-4 md-4 lg-4">
+        <input type="radio" id="priority-high" name="priority">
+        <label for="priority-high">High Priority</label>
+      </div>
+      <div class="sm-12 md-6 lg-6">
+        <input type="checkbox" id="copy" name="copy">
+        <label for="copy">Email me a copy of this message</label>
+      </div>
+      <div class="sm-12 md-6 lg-6">
+        <input type="checkbox" id="human" name="human" checked>
+        <label for="human">I am a human and not a robot</label>
+      </div>
+      <div class="sm-12 md-12 lg-12">
+        <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+      </div>
+      <div class="group sm-12 md-12 lg-12">
+        <div class="sm-6 md-6 lg-6">
+          <input type="submit" value="Send Message" class="special" />
+          <input type="reset" value="Reset" />
+        </div>
+      </div>
+    </form>
+    <h3>Square Images</h3>
+    <h3>GF-Lightbox</h3>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="./js/gf.min.js" charset="utf-8"></script>
 </body>
+
 </html>
