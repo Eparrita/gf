@@ -10,7 +10,7 @@
 /build
 
 # sass
-/sass
+/sass*
 
 # Js
 /js/gf.js
@@ -20,7 +20,6 @@
 /css/gf.css
 
 # Gulp
-
 gulpfile.js*
 
 # json
